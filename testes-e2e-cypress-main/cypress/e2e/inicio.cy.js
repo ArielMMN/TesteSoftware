@@ -109,13 +109,14 @@ describe('Página Principal', () => {
   })
 })
 
+
 describe('Página Principal', () => {
   beforeEach( () => {
     cy.visit('http://localhost:3000/')
   })
   
-  it('Deve renderizar h1 com o texto correto!', () => {
+  it('Deve renderizar p com o texto correto!', () => {
     cy.visit('http://localhost:3000')
-    cy.matchElement('item')
+    cy.Identificar('paragrafo-seguro').contains('Seus dispositivos móveis (computador e laptop) protegidos por uma mensalidade simbólica.')
   })
 })
