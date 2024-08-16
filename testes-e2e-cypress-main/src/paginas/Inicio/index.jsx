@@ -16,6 +16,11 @@ export default function Inicio() {
               Experimente mais liberdade no controle da sua vida financeira.
               Crie sua conta com a gente!
             </h1>
+            <div data-teste="item_teste">
+              <h6>
+                Melhor bank
+              </h6>
+            </div>
             <img
               src={ilustracaoBanner}
               alt="Gráficos e uma pessoa com dinheiro na mão"
