@@ -27,7 +27,6 @@
 Cypress.Commands.add('getByData', (seletor) => {
     return cy.get(`[data-test=${seletor}]`)
 })
-
-Cypress.Commands.add('Identificar', (seletor) => {
+Cypress.Commands.add('indentificatexto', (seletor) => {
     return cy.get(`[data-test=${seletor}]`)
 })
