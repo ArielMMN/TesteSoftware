@@ -1,4 +1,7 @@
 describe('Testando dispositivos móveis', () => {
+    beforeEach(() => {  
+        cy.viewport('iphone-5')
+    })
     it('Deve existir um menu burguer', () => {
         cy.visit('/')
         
@@ -15,3 +18,4 @@ describe('Testando dispositivos móveis', () => {
         cy.location('pathname').should('eq','/home/investimentos')			
     })
 })
+
